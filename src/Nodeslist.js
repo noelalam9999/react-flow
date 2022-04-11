@@ -89,7 +89,57 @@ function onMenuClick(){
 
 { menu=="head2" &&
 <>
-<h4 className='align-left'>Default</h4>
+<h4 className='align-left'>Read</h4>
+<h6 className='align-left'>Logverbosity</h6>
+<Form.Select size="lg" aria-label="Default select example">
+  <option>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</Form.Select>
+<div className='dropdowns'>
+</div>
+<h6 className='align-left'>Send Mail</h6>
+<Form.Select size="lg" aria-label="Default select example">
+  <option>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</Form.Select>
+<div className='dropdowns'>
+</div>
+<Form.Group controlId="formFile" className="mb-3">
+<h6 className='align-left'>Log File</h6>
+    <Form.Control type="file" />
+  </Form.Group>
+  <div className='dropdowns'>
+</div>
+<h4 className='align-left'>Write</h4>
+<h6 className='align-left'>Logverbosity</h6>
+<Form.Select size="lg" aria-label="Default select example">
+  <option>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</Form.Select>
+<div className='dropdowns'>
+</div>
+<h6 className='align-left'>Send Mail</h6>
+<Form.Select size="lg" aria-label="Default select example">
+  <option>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</Form.Select>
+<div className='dropdowns'>
+</div>
+<Form.Group controlId="formFile" className="mb-3">
+<h6 className='align-left'>Log File</h6>
+    <Form.Control type="file" />
+  </Form.Group>
+  <div className='dropdowns'>
+</div>
+<h4 className='align-left'>Pricing</h4>
 <h6 className='align-left'>Logverbosity</h6>
 <Form.Select size="lg" aria-label="Default select example">
   <option>Open this select menu</option>
@@ -113,6 +163,7 @@ function onMenuClick(){
     <Form.Control type="file" />
   </Form.Group>
 </>
+
 
 }
 

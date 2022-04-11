@@ -200,3 +200,9 @@ font-size: 18px;
   color: rgb(2, 2, 2) !important;
   cursor: pointer;
 }
+
+.project-list-body{
+margin-left:  15%;
+margin-right:15%;
+margin-top:2%
+}

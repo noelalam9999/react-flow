@@ -25,7 +25,7 @@ const Flow=()=> {
 const getNodeId = () => `randomnode_${+new Date()}`;
 
 const initialNodes = [
-  { id: '1', type:"input",data: { label: 'Read File' }, position: { x: 100, y: 100 } },
+  { id: '1', type:"input",data: { label: 'Read File' }, position: { x: 350, y: 400 } },
   { id: '2', type:"default",data: { label: '$ Pricing' }, position: { x: 300, y: 300 } },
 ];
 const saveclass=useRef("save-button");
@@ -213,7 +213,7 @@ console.log(flow);
 <BsFillArrowLeftCircleFill className='back-arrow'></BsFillArrowLeftCircleFill>
 </a>
 <p >Back To Home Page</p>
-<h6>Project Name Here</h6>
+<h6>Project One</h6>
 <BsFillPenFill className='edit-icon'></BsFillPenFill>
 <button className='run-button'>Run<BsFillPlayFill className='run-icon'></BsFillPlayFill></button><BsPatchExclamation className='exclamation-icon'></BsPatchExclamation>
 <button onClick={()=>{onShowOutput()}} className='output-button'>Output</button>

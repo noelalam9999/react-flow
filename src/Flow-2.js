@@ -213,7 +213,7 @@ console.log(flow);
 <BsFillArrowLeftCircleFill className='back-arrow'></BsFillArrowLeftCircleFill>
 </a>
 <p >Back To Home Page</p>
-<h6>Project Name Here</h6>
+<h6>Project Two</h6>
 <BsFillPenFill className='edit-icon'></BsFillPenFill>
 <button className='run-button'>Run<BsFillPlayFill className='run-icon'></BsFillPlayFill></button><BsPatchExclamation className='exclamation-icon'></BsPatchExclamation>
 <button onClick={()=>{onShowOutput()}} className='output-button'>Output</button>
